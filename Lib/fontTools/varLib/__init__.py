@@ -57,6 +57,7 @@ from copy import deepcopy
 from pprint import pformat
 from re import fullmatch
 from .errors import VarLibError, VarLibValidationError
+from .validate import FontValidationReport, ValidationIssue, validateFont
 
 log = logging.getLogger("fontTools.varLib")
 
